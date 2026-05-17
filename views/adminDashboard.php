@@ -143,6 +143,7 @@ $blogCount = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(*) AS total FR
         <a href="payment.php">Car Search</a>
 
         <a href="carDetails.php">Car Details</a>
+        <a href="blog.php">Blog Management</a>
         
         <a href="../controllers/logout.php" style="background:red;">Logout</a>
 
