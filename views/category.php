@@ -134,11 +134,11 @@
                         <fieldset>
 
                             <?php if($car['image_path']): ?>
-    <img class="car-img"
-         src="public/uploads/cars/<?php echo htmlspecialchars($car['image_path']); ?>"
-         alt="<?php echo htmlspecialchars($car['name']); ?>"
-         onerror="this.src='public/uploads/cars/carImage.jpeg'" width="250" height="150">
-    <?php endif; ?>
+                                <img class="car-img"
+                                    src="public/uploads/cars/<?php echo htmlspecialchars($car['image_path']); ?>"
+                                    alt="<?php echo htmlspecialchars($car['name']); ?>"
+                                    onerror="this.src='public/uploads/cars/carImage.jpeg'" width="250" height="150">
+                                <?php endif; ?>
                             <h3><?php echo $car['name']; ?></h3>
 
                             <p>Model : <?php echo $car['model']; ?></p>
@@ -149,10 +149,9 @@
 
                             <a href="carDetails.php?id=<?php echo $car['id']; ?>">
 
-                                <!-- home.php এ car card এর button -->
-<a href="orderForm.php?car_id=<?php echo $car['id']; ?>">
-    <button>Rent Now</button>
-</a>
+                            <a href="orderForm.php?car_id=<?php echo $car['id']; ?>">
+                                <button>Rent Now</button>
+                            </a>
 
                             </a>
 
@@ -181,17 +180,8 @@
 
     </tr>
 
-    <!-- FOOTER -->
-
-    <tr>
-
-        <td colspan="2" align="center">
-
-            Copyright &copy; 2026
-
-        </td>
-
-    </tr>
+    
+ 
 
 </table>
 

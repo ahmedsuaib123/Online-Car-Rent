@@ -235,16 +235,6 @@
 
     </tr>
 
-    <!-- FOOTER -->
-
-    <tr>
-
-        <td colspan="2" align="center">
-            Copyright &copy; 2026
-        </td>
-
-    </tr>
-
 </table>
 
 <script>
